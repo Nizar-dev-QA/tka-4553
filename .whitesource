@@ -28,6 +28,37 @@
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
+    },
+    "enableRenovate": true,
+    "extends": [
+      "github>whitesource/merge-confidence:beta"
+    ],
+    "dependencyDashboard": true
+  },
+  "hostRules": [
+    {
+      "matchHost": "https://maven.pkg.github.com/",
+      "hostType": "maven",
+      "username": "servicegithub",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+      "matchHost": "https://maven.pkg.github.com/b1-as",
+      "hostType": "maven",
+      "username": "servicegithub",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+      "matchHost": "https://maven.pkg.github.com/b1-as/b1x-java-utils",
+      "hostType": "maven",
+      "username": "servicegithub",
+      "encrypted": {
+        "password": "redacted"
+      }
     }
-  }
+  ]
 }
