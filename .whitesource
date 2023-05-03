@@ -39,19 +39,19 @@
     {
       "matchHost": "https://maven.pkg.github.com/",
       "hostType": "maven",
-      "username": "servicegithub",
+      "username": "servicegithub"
       
     },
     {
       "matchHost": "https://maven.pkg.github.com/b1-as",
       "hostType": "maven",
-      "username": "servicegithub",
+      "username": "servicegithub"
     
     },
     {
       "matchHost": "https://maven.pkg.github.com/b1-as/b1x-java-utils",
       "hostType": "maven",
-      "username": "servicegithub",
+      "username": "servicegithub"
      
     }
   ]
